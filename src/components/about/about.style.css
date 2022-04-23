@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h3{
+    margin-top: 4.5rem!important;
+}
+
+.about{
+    width: 100%;
+    /* height: 60vh; */
+    margin: auto;
+}
+ img{
+    width: 70%;
+ }
+ .text-span{
+     color: #2a9d8f;
+ }
+ .bg-persian{
+     background: #2a9d8f !important;
+     color: white !important;
+ }
+ Link,Link:hover{
+     color: white;
+     text-decoration: none;
+ }
