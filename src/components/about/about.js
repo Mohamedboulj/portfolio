@@ -2,7 +2,6 @@ import "../about/about.style.css";
 import "../../../node_modules/aos/dist/aos.css";
 import { useEffect } from "react";
 import pic from "../../img/mypic.png";
-import { Link } from "react-router-dom";
 
 export function About() {
     useEffect(() => {

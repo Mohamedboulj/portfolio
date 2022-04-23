@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
 * {
   margin: 0px;
@@ -29,12 +28,20 @@ h3 a:hover{
   background-color: white;
   /* border: 1px #394b5e solid; */
   border-radius: 20px 0px 20px 0px;
-  box-shadow: #c9daeb  0px 0px 23px 1px;
+  /* box-shadow: #c9daeb  0px 0px 23px 1px; */
 }
 
 .mycontainer {
-  /* background: rgb(255, 255, 255); */
-  background: #52b0ea0c ;
+  
+  /* background: #2B3973; */
+  /* From https://css.glass */
+  /* From https://css.glass */
+background: rgba(55, 72, 149, 0.33);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(55, 72, 149, 0.02);
 }
 
 header {
@@ -69,7 +76,7 @@ li img {
   width: 15%;
 }
 a label {
-  color: #014891;
+  color: #ffffff;
   cursor: pointer;
 }
 /* header */
@@ -106,22 +113,20 @@ p,
 li {
   font-family: 'Playfair Display', serif;
 }
-h4 {
+
+h2 ,h4 {
   /* font-size: medium; */
   text-transform: uppercase;
-  color: #042f58;
+  color: #ec5355;
 }
 
 .nom_poste {
   text-align: center;
 }
 
-h2 {
-  color: #042f58;
-  text-transform: uppercase;
-}
-h3 {
-  color: #014891;
+
+p,h3 {
+  color: #ffffff;
 }
 h5,
 .explan ul li,
@@ -130,7 +135,7 @@ header ul li,
 .lan p,
 .for p {
   font-size: 15px;
-  color: #014891;
+  color: #ffffff;
 }
 .explan,
 .forcom {
@@ -149,7 +154,7 @@ header ul li,
 } */
 .label,
 .progress {
-  color: #014891;
+  color: #ffffff;
   display: inline-block;
   margin-left: 10px;
 }

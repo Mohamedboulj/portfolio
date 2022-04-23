@@ -12,7 +12,7 @@ import music from "../../img/music.png";
 import voyage from "../../img/voyage.png";
 import football from "../../img/football.png";
 import cinema from "../../img/cinema.png";
-import cv from "../../files/resume.pdf"
+import cv from "../../files/Mohamed_Bouljihel_FS_DEV.pdf"
 import AOS from "aos";
 import "../../../node_modules/aos/dist/aos.css";
 import { useEffect } from "react";
@@ -24,15 +24,15 @@ export function Resume() {
   return (
     <div id="resume" className="resume mb-5" data-aos="fade-left">
       <div className="mycontainer">
-        <header className="mb-3">
-          <img src={pic} className="img-fluid mypic" alt="medpic" />
+        <header className="row mb-3">
+          {/* <img src={pic} className="img-fluid mypic" alt="medpic" /> */}
 
-          <div className="nom_poste ">
-            <h2>Mohamed Bouljihel</h2>
-            <h3>Fullstack web developpeur</h3>
+          <div className="col nom_poste ">
+            {/* <h2>Mohamed Bouljihel</h2> */}
+            <h3 className="my-5 fw-600">FULSTACK WEB DEVELOPER</h3>
           </div>
 
-          <ul className="info">
+          {/* <ul className="col justify-content-center info">
             <li>Bd Cadi Tazi, lot YASMINA Imm B, App 2</li>
             <li>Mohammedia</li>
             <li>Tel :+212615110495</li>
@@ -50,7 +50,7 @@ export function Resume() {
                 <label>&nbsp;|Mohamedboulj</label>
               </a>
             </li>
-          </ul>
+          </ul> */}
         </header>
         <main>
           <div className="explan">
@@ -144,7 +144,7 @@ export function Resume() {
               </section>
 
               <section className="com mb-3">
-                <h2>Competences</h2>
+                <h2 className="mb-3">Competences</h2>
                 <div className="parent">
                   <div className="html">
                     <img src={html} alt="" />
