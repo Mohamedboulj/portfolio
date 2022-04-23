@@ -1,15 +1,22 @@
-*{
+body{
     margin:0px;
-    padding: 0px;;
+    padding: 0px;
+    
 }
+/* .navigation{
+    margin: auto;
+} */
 nav{
+    width: 95%;
+    box-sizing: border-box;
+    margin-inline: auto;
     display: flex;
     align-items: center;
-    height: 3.5em;
-    position: fixed;
-    top: 0;
+    height: 4em;
+    position: relative;
+    top: 1rem;
     z-index: 20;
-    background: #E76F51;
+    background:#ED696B;
     justify-content: space-around;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0,0,0,0.1) inset;
     

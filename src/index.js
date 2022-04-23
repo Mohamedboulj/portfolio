@@ -6,6 +6,7 @@ import { Contact } from "./components/contact/contact";
 import { Navbar } from "./components/navbar/navbar";
 import { Projects } from "./components/projets/projects";
 import { Resume } from "./components/resume/resume";
+import "../src/index.css"
 
 function Portfolio() {
   return (

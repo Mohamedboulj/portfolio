@@ -17,8 +17,8 @@ a img{
   transition: brightness 0.5s;
 }
 
-img:hover{
+/* img:hover{
   filter: brightness(110%);
   cursor:pointer;
 
-}
+} */

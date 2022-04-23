@@ -1,27 +1,24 @@
 import "../about/about.style.css";
-import AOS from "aos";
 import "../../../node_modules/aos/dist/aos.css";
 import { useEffect } from "react";
-import pic from "../../img/mypic.jpg";
+import pic from "../../img/mypic.png";
 import { Link } from "react-router-dom";
 
 export function About() {
     useEffect(() => {
-      AOS.init();
-      AOS.refresh();
+      
     }, []);
   return (
     <>
-    <div id="about" className="about position-relative mt-5 px-4" data-aos="fade-up" >
+    <div id="about" className="about position-relative mt-4 px-4"  >
      
-      <div className="row mb-3">
-        <div className="col position-relative">
+      <div className="row mx-4 ">
+        <div className="col-7 position-relative">
           <div className="position-absolute top-50 start-50 translate-middle w-100 p-3">
-            <p className="h1 fw-800">
-              Welcome to my portfolio ,my name is Mohamed Bouljihel ,  I am 29 y.o and I am
-              a <span className="text-span">Fullstack web developer.</span> 
+            <p className="para text-light ">
+              Welcome to my portfolio,<br/> my name is Mohamed Bouljihel,<br />  I am 29 y.o and I am
+              a <span className="text-span"><em>Fullstack web developer.</em> </span> 
             </p>
-            <button  className="btn btn-lg bg-persian rounded-pill mt-3"><Link to="/contact" >LET'S TALK</Link></button>
           </div>
         </div>
         <div className="col text-center">
