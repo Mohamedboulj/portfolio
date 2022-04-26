@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.contenair{
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.wrapper{ 
+    height: -webkit-fill-available;
+}
+.get_in_touch{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+input,textarea,button{
+    border: transparent;
+    background-color: #EFEFEF;
+    border-radius: 20px !important;
+}
+
+
+input[type='text'],input[type="email"],button{
+    height: 40px;
+}
+button{
+    background-color: #2B3973;
+    font-family: 'Montserrat', sans-serif !important;
+}
+i{
+    width: fit-content;
+}
+.bi{
+    font-size: 110%;
+    color: #2B3973;
+    position: relative;
+    bottom: 41px;
+    left: 20px;
+}

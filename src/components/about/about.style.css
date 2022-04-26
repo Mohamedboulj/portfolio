@@ -8,8 +8,9 @@
 
 .about{
     width: 100%;
-    height: auto;
+    min-height: fit-content;
     overflow-y: hidden;
+    margin-top: 60px;
     
 }
  img{
@@ -18,11 +19,14 @@
  .text-span{
      color: #ED696B;
  }
- 
+ .my-div{
+    width: fit-content;
+ }
  .para{
-     font-size: 2.7rem;
-     line-height: 5rem;
-     text-align:start;
+    font-size: 3.5vw;
+    line-height: 7vw;
+    text-align:start;
+    margin: 0;
  }
  Link,Link:hover{
      color: white;
