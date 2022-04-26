@@ -13,7 +13,7 @@ export function About() {
      
       <div className="row mx-4 ">
         <div className="col position-relative">
-          <div className="my-div position-absolute top-50 start-50 translate-middle p-3">
+          <div className="my-div position-absolute top-50 start-50 translate-middle p-3" style={{height: "81vh"}}>
             <p className="para text-light ">
               Welcome to my portfolio,<br/> my name is Mohamed Bouljihel,<br />  I am 28 y.o and I am
               a <span className="text-span"><em>Fullstack web developer.</em> </span> 

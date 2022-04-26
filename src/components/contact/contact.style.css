@@ -20,14 +20,17 @@ input,textarea,button{
     border: transparent;
     background-color: #EFEFEF;
     border-radius: 20px !important;
+    
 }
-
+input,textarea:focus{
+ outline: none;
+}
 
 input[type='text'],input[type="email"],button{
     height: 40px;
 }
 button{
-    background-color: #2B3973;
+    background-color: #EA6769;
     font-family: 'Montserrat', sans-serif !important;
 }
 i{
