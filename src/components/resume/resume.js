@@ -29,7 +29,7 @@ export function Resume() {
 
           <div className="col nom_poste ">
             {/* <h2>Mohamed Bouljihel</h2> */}
-            <h3 className="my-5 fw-600">FULSTACK WEB DEVELOPER</h3>
+            <h3 className="my-5 fw-600">&lt;FULSTACK WEB DEVELOPER/&gt;</h3>
           </div>
 
           {/* <ul className="col justify-content-center info">

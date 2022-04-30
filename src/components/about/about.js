@@ -23,7 +23,7 @@ export function About() {
         <div className="col text-center">
             <img
               src={pic}
-              className="img-fluid  "
+              className="perso img-fluid  "
               alt="mohamed bouljihel"
             />
           </div>

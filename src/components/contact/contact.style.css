@@ -22,6 +22,9 @@ input,textarea,button{
     border-radius: 20px !important;
     
 }
+textarea{
+    padding-top: 5px;
+}
 input,textarea:focus{
  outline: none;
 }
@@ -36,7 +39,7 @@ button{
 i{
     width: fit-content;
 }
-.bi{
+.bi-envelope-fill,.bi-person-fill{
     font-size: 110%;
     color: #2B3973;
     position: relative;

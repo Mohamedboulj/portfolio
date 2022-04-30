@@ -1,24 +1,56 @@
 .projets {
-  background: #bec3ca;
-  width: auto;
-  height: auto;
+  background: rgba(55, 72, 149, 0.33);
+  width: 90%;
+  height: 50%;
   margin: auto;
+  border-radius: 10px;
+
 }
 
-span i,
-span a,
-span a:hover {
+
+.All{
+    border-radius: 38px; 
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnails{
+  z-index: 1;
+  transition: all .5s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+.thumbnails:hover{
+  opacity: 0.3;
+  z-index: 0;
+}
+.proj-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  z-index: 0;
+}
+.proj-thumbnails{
+  padding: 15px;
+  max-width:80% ;
+}
+.bi-github{
+  font-size: 20px;
+}
+.seemore a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
-  font-weight: 300;
-}
-a img{
-  filter: brightness(100%);
-  transition: brightness 0.5s;
+  font-family: 'Montserrat', sans-serif; ;
+  font-size:16px;
+  font-style: italic;
+  transition: all .6s ease;
 }
 
-/* img:hover{
-  filter: brightness(110%);
-  cursor:pointer;
+.seemore a:hover{
+  color:#EB686A;
+  
 
-} */
+}
