@@ -29,7 +29,7 @@ export function Navbar() {
     //   </div>
     // </nav>
     <nav className="navbar">
-    <a href="#" className="brand">Portfolio</a>
+    <NavLink to="#" className="brand">Portfolio</NavLink>
        <input type="checkbox" id="toggler"/>
     <label htmlFor="toggler"><i className="bi bi-list"></i></label>
      <div className="menu">

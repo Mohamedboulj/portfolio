@@ -12,24 +12,26 @@ import music from "../../img/music.png";
 import voyage from "../../img/voyage.png";
 import football from "../../img/football.png";
 import cinema from "../../img/cinema.png";
-import cv from "../../files/Mohamed_Bouljihel_FS_DEV.pdf"
+import cv from "../../files/Mohamed_Bouljihel_FS_DEV.pdf";
 import AOS from "aos";
 import "../../../node_modules/aos/dist/aos.css";
 import { useEffect } from "react";
 export function Resume() {
   useEffect(() => {
-    AOS.init({duration:2000});
+    AOS.init({ duration: 2000 });
     AOS.refresh();
   }, []);
   return (
     <div id="resume" className="resume mb-5" data-aos="fade-up">
       <div className="mycontainer">
-        <header className="row mb-3">
+        <header className="row px-0 mx-0 mb-3">
           {/* <img src={pic} className="img-fluid mypic" alt="medpic" /> */}
 
-          <div className="col nom_poste ">
+          <div className="col px-0 nom_poste ">
             {/* <h2>Mohamed Bouljihel</h2> */}
             <h3 className="my-5 fw-600">&lt;FULSTACK WEB DEVELOPER/&gt;</h3>
+            <a href={cv} className="hbtn hb-fill-middle2-bg hbor2 hpad2"><i className="bi bi-cloud-arrow-down-fill" aria-hidden="true"></i>Download</a>
+
           </div>
 
           {/* <ul className="col justify-content-center info">
@@ -107,7 +109,7 @@ export function Resume() {
                   <label HtmlFor="ta">Tamazight</label>
                 </div>
                 <div className="label">
-                <label HtmlFor="ar">&nbsp;: Maternelle</label>
+                  <label HtmlFor="ar">&nbsp;: Maternelle</label>
                   <label HtmlFor="fr">&nbsp;: Courant</label>
                   <label HtmlFor="an">&nbsp;: Courant</label>
                   <label HtmlFor="ta">&nbsp;: Maternelle</label>
@@ -122,7 +124,9 @@ export function Resume() {
                 <div>
                   <h4>FORMATION a la 3W academy</h4>
                   <h5>Fev 2022- Mai 2022</h5>
-                  <p>Développememt Web Full-Stack (Php-Laravel-ReactJS)</p>
+                  <ul>
+                    <li>Développememt Web Full-Stack (Php-Laravel-ReactJS)</li>
+                  </ul>
                 </div>
                 <h4>MASTER spécialisé</h4>
                 <h5>2016-2018</h5>

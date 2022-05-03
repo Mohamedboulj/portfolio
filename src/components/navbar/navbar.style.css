@@ -118,7 +118,6 @@ li a:hover::after {
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  background-color: #ffff;
   padding: 15px;
   /* height: 50px; */
   background: #ed696b;
@@ -127,13 +126,11 @@ li a:hover::after {
   /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
 
  }
-.navbar a{
+.navbar a, .list a:hover{
   text-decoration: none;
-  color: inherit;
+  color: #ffffff;
 }
-.NavLink-active{
-  color:#2B3973;
-}
+
 .brand{
   margin-right: 50px;
   font-family: 'Ms Madi', cursive;
@@ -144,7 +141,7 @@ li a:hover::after {
 .list{
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 80px;
   margin-bottom: 0;
 }
 #toggler,
@@ -152,8 +149,16 @@ li a:hover::after {
   display: none;
   
 }
+.NavLink-active{
+  color:#2B3973;
+}
 .bi-list{
 font-size: 26px;
+}
+@media screen and (max-width: 753px){
+  .list{
+    gap: 29px;
+  }
 }
 
 @media screen and (max-width: 600px){
