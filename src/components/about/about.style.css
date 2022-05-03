@@ -14,13 +14,14 @@
     
 }
 div>p{
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 2.8vw;
     text-align: justify;
     padding-left: 3rem;
     padding-right: 3rem;
     letter-spacing: 3px;
 }
-em{
+.text-span{
     color: #ED696B;
     letter-spacing: 7px;
 
@@ -52,12 +53,12 @@ em{
         margin: 0;
         
     }
-    .profile{
-        padding-inline: 3rem !important;
-    }
-    .row .col{
+    /* .row .col{
         padding: 0px !important;
     }
+    .profile{
+        padding-inline: 3rem !important;
+    } */
 }
 @media screen and (max-width: 375px) {
     div>p{
@@ -68,13 +69,14 @@ em{
         text-align: center;
     }
     em{
-        
-        letter-spacing: 0;}
-
-    .profile{
-        padding-inline: 3rem !important;
+        letter-spacing: 0;
     }
+
+      
     .row .col{
         padding: 0px !important;
+    }
+    .profile{
+        padding-inline: 3rem !important;
     }
 }

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
- body {
+ /* body {
   margin: 0px;
   padding: 0px;
 }
@@ -26,7 +26,7 @@ nav .brand {
 }
 .brand{
   font-family: 'Ms Madi', cursive;
-  font-size: 1.4em;
+  font-size: 1.9em;
   font-weight: 800;
 }
 .menu{
@@ -67,16 +67,12 @@ li a:hover::after {
 }
 .NavLink-active{
   color:#2B3973;
-  
 }
 #toggler,
 .nabar label {
   display: none;
 }
-#toggler{
-    position: absolute;
-    right: 14px;
-  }
+
 @media screen and (max-width: 700px) {
   .menu {
     width: 65%;
@@ -89,7 +85,6 @@ li a:hover::after {
   .menu {
     width: 100%;
     max-height: 0;
-    overflow: hidden;
     display: none;
   }
   .list {
@@ -106,12 +101,83 @@ li a:hover::after {
     align-items:center;
     cursor: pointer;
   }
+  .bi-list{
+    position: absolute;
+    right: 14px;
+  }
   
   #toggler:checked ~ .menu {
     max-height: 100%;
     display: block;
   }
 } 
+ */
+ .navbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #ffff;
+  padding: 15px;
+  /* height: 50px; */
+  background: #ed696b;
+  color: #ffffff;
 
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
 
+ }
+.navbar a{
+  text-decoration: none;
+  color: inherit;
+}
+.NavLink-active{
+  color:#2B3973;
+}
+.brand{
+  margin-right: 50px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 1.9em;
+  font-weight: 800;
+}
 
+.list{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 0;
+}
+#toggler,
+.navbar label{
+  display: none;
+  
+}
+.bi-list{
+font-size: 26px;
+}
+
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    /* .navbar{
+      height: 260px;
+    } */
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+    #toggler:checked~.menu{
+        max-height: 100%;
+    }
+    
+  }

@@ -26,23 +26,24 @@ export function About() {
         </div>
       </div> */}
         <div className="row m-0 px-4">
-          <div className="col px-5 d-flex align-items-center">
+          <div className="col  px-5 d-flex align-items-center">
             
             <p className="lh-lg">
               Welcome to my portfolio !<br/> my name is Mohamed Bouljihel.<br/> I am 28 years old
               and I am a
               <span className="text-span">
-                <em> Fullstack web developer.</em>
+                Fullstack web developer.
               </span>
             </p>
             
           </div>
-          <div className="col-md-5 profile">
+          <div className="col-sm-12 col-md-4 profile">
             <img className="img-fluid" src={pic} alt="mohamed bouljihel" />
           </div>
         </div>
-        <div className="row socialm"></div>
-      </div>
+        </div>
+
+        
     </>
   );
 }
