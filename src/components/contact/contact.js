@@ -5,7 +5,10 @@ import { useEffect, useRef } from "react";
 import "../contact/contact.style.css"
 import illustration from "../../img/undraw_Profile_re_4a55.png"
 export function Contact() {
-  
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+    AOS.refresh();
+  }, []);
     const form = useRef();
   
     const sendEmail = (e) => {
@@ -23,9 +26,9 @@ export function Contact() {
     <div className="contenair mt-5 p-5">
       <div className="wrapper d-flex flex-row align-items-center w-auto">
         
-        <img src={illustration} className="col-6 d-none d-md-block py-auto img-fluid" alt="" />
+        <img src={illustration} className="col-6 d-none d-md-block py-auto img-fluid" alt=""  data-aos="fade-right" />
         
-        <div className="form col-12 col-md-6 d-flex flex-column ">
+        <div className="form col-12 col-md-6 d-flex flex-column " data-aos="fade-up">
           <span className="get_in_touch mb-4">LET'S GET IN TOUCH</span>
           <form ref={form} onSubmit={sendEmail} className="d-flex flex-column">
             <input type="text" className="name position-relative mb-2 px-5" name="destinateur" placeholder="Name" />

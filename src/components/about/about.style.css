@@ -13,26 +13,68 @@
     margin-top: 60px;
     
 }
- .perso{
-    width: 70%;
- }
- .text-span{
-     color: #ED696B;
- }
- .my-div{
-    width: fit-content;
- }
- .para{
-    font-size: 3.5vw;
-    line-height: 7vw;
-    text-align:start;
-    margin: 0;
- }
- Link,Link:hover{
-     color: white;
-     text-decoration: none;
- }
+div>p{
+    font-size: 36px;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    letter-spacing: 3px;
+}
+em{
+    color: #ED696B;
+    letter-spacing: 7px;
 
- em{
-     font-weight: 600;
- }
+  transform: translate(-50%,-50%);
+  background: linear-gradient(to right, #ED696B 0, white 10%, #ED696B 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  
+  text-decoration: none;
+  white-space: nowrap;
+}
+@keyframes shine{
+  0%
+    {background-position: 0}
+  60%
+   { background-position: 180px}
+  100%
+   { background-position: 470px}
+}
+
+@media screen and (max-width: 600px) {
+    div>p{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0;
+        
+    }
+    .profile{
+        padding-inline: 3rem !important;
+    }
+    .row .col{
+        padding: 0px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    div>p{
+        font-size: 20px;
+        padding: 0px ;
+        margin: 0;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    em{
+        
+        letter-spacing: 0;}
+
+    .profile{
+        padding-inline: 3rem !important;
+    }
+    .row .col{
+        padding: 0px !important;
+    }
+}

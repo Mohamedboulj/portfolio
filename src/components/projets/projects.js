@@ -19,7 +19,7 @@ export function Projects() {
         <div className="row m-auto ">
           <div
             className="col-lg-6 d-flex justify-content-center align-items-center flex-column position-relative m-0"
-            data-aos="fade-right"
+            data-aos="flip-up"
           >
             <a
               href="https://mohamedboulj.github.io/Weather-application/"
@@ -37,7 +37,7 @@ export function Projects() {
 
           <div
             className="col-lg-6 d-flex justify-content-center align-items-center flex-column position-relative m-0"
-            data-aos="fade-right"
+            data-aos="flip-up"
           >
             <a
               href="https://mohamedboulj.github.io/QuotesGen/"
@@ -54,7 +54,7 @@ export function Projects() {
           </div>
           <div
             className="col-lg-6 d-flex justify-content-center align-items-center flex-column position-relative m-0"
-            data-aos="fade-right"
+            data-aos="flip-up"
           >
             <a
               href="https://mohamedboulj.github.io/bootstarp-project1"
@@ -71,7 +71,7 @@ export function Projects() {
           </div>
           <div
             className="col-lg-6  d-flex justify-content-center align-items-center flex-column position-relative m-0"
-            data-aos="fade-right"
+            data-aos="flip-up"
           >
             <a
               href="https://mohamedboulj.github.io/Todolist/"

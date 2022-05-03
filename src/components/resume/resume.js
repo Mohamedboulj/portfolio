@@ -22,7 +22,7 @@ export function Resume() {
     AOS.refresh();
   }, []);
   return (
-    <div id="resume" className="resume mb-5" data-aos="fade-left">
+    <div id="resume" className="resume mb-5" data-aos="fade-up">
       <div className="mycontainer">
         <header className="row mb-3">
           {/* <img src={pic} className="img-fluid mypic" alt="medpic" /> */}
