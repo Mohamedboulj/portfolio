@@ -1,82 +1,97 @@
-*{
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-
-
-.about{
-    width: 100%;
-    min-height: fit-content;
-    overflow-y: hidden;
-    margin-top: 60px;
-    
+.about {
+  width: 100%;
+  min-height: fit-content;
+  overflow-y: hidden;
+  margin-top: 60px;
 }
-div>p{
-    /* font-size: 36px; */
-    font-size: 2.8vw;
-    text-align: justify;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    letter-spacing: 3px;
+div > p {
+  /* font-size: 36px; */
+  font-size: 2.8vw;
+  text-align: justify;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  letter-spacing: 3px;
 }
-.text-span{
-    color: #ED696B;
-    letter-spacing: 7px;
-
-  transform: translate(-50%,-50%);
-  background: linear-gradient(to right, #ED696B 0, white 10%, #ED696B 20%);
+.text-span {
+  color: #ed696b;
+  letter-spacing: 7px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, #ed696b 0, white 10%, #ed696b 20%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
-  
+
   text-decoration: none;
   white-space: nowrap;
 }
-@keyframes shine{
-  0%
-    {background-position: 0}
-  60%
-   { background-position: 180px}
-  100%
-   { background-position: 470px}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 495px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    div>p{
-        font-size: 30px;
-        padding: 0px;
-        margin: 0;
-        
+  div > p {
+    font-size: 23px;
+    padding: 0px;
+    margin: 0;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
     }
-    /* .row .col{
-        padding: 0px !important;
+    60% {
+      background-position: 180px;
     }
-    .profile{
-        padding-inline: 3rem !important;
-    } */
+    100% {
+      background-position: 430px;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
-    div>p{
-        font-size: 20px;
-        padding: 0px ;
-        margin: 0;
-        letter-spacing: 0;
-        text-align: center;
-    }
-    em{
-        letter-spacing: 0;
-    }
+  div > p {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  em {
+    letter-spacing: 0;
+  }
 
-      
-    .row .col{
-        padding: 0px !important;
-    }
-    .profile{
-        padding-inline: 3rem !important;
-    }
+  .row .col {
+    padding: 0px !important;
+  }
+  .profile {
+    padding-inline: 3rem !important;
+  }
+}
+.reachme{
+    width: inherit;
+   
+    
+}
+.reachme a i{
+    font-size: 30px;
+    color: white;
+    transition: all .3s cubic-bezier(0.79, -0.09, 0.56, 1.1);
+}
+.reachme a i:hover {
+    color:#EB686A;
 }

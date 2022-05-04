@@ -5,11 +5,7 @@
   box-sizing: border-box;
 }
 
-/* .resume {
-  width: 100%;
-  height: 49vh;
-  margin: auto;
-} */
+
 h3 a{
   
   text-decoration: none;
@@ -26,16 +22,12 @@ h3 a:hover{
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
-  /* border: 1px #394b5e solid; */
   border-radius: 20px 0px 20px 0px;
-  /* box-shadow: #c9daeb  0px 0px 23px 1px; */
 }
 
 .mycontainer {
   
-  /* background: #2B3973; */
-  /* From https://css.glass */
-  /* From https://css.glass */
+  
 background: rgba(55, 72, 149, 0.33);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -49,7 +41,6 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* border-bottom: 1px black solid; */
 }
 .mypic {
   width: 22%;
@@ -99,11 +90,7 @@ section,
 .experience ul li {
   list-style-type: disc;
 }
-/* section.for,
-section.com,
-.experience {
-  border-left: 2px solid #014891;
-} */
+
 
 h2,
 h3,
@@ -148,10 +135,7 @@ header ul li,
 .lan div div progress {
   display: block;
 }
-/* .lan div div progress {
-  display: block;
-  
-} */
+
 .label,
 .progress {
   color: #ffffff;
@@ -237,7 +221,7 @@ section img {
 
 
 .hb-fill-middle2-bg:hover::before {
-  width: 50%;
+  width: 51%;
   height: 100%;
   opacity: 1;
 } 
@@ -271,7 +255,7 @@ section img {
 
 
 .hb-fill-middle2-bg:hover::after {
-  width: 50%;
+  width: 51%;
 } 
 
 

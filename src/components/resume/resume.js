@@ -130,21 +130,30 @@ export function Resume() {
                 </div>
                 <h4>MASTER spécialisé</h4>
                 <h5>2016-2018</h5>
-                <p>
-                  Ingénierie et optimisation des systèmes de transport et
+                <ul>
+                  <li>
+                    Ingénierie et optimisation des systèmes de transport et
                   logistique (IOSTL) |&nbsp; FS Ain Chock CASABLANCA
-                </p>
+                  </li>
+                  
+                </ul>
 
                 <h4>LICENCE FONDAMENTALE</h4>
                 <h5>2012-2016</h5>
-                <p>
-                  Sciences mathématiques appliquées |&nbsp;FS Ain chock
+                <ul>
+                  <li>
+                    Sciences mathématiques appliquées |&nbsp;FS Ain chock
                   CASABLANCA
-                </p>
+                  </li>
+                  
+                </ul>
 
                 <h4>BACCALAURÉAT Sciences mathématiques A</h4>
                 <h5>2012</h5>
-                <p>Lycée Sidi Ahmed Bennacer ZAGORA</p>
+                <ul>
+                  <li>Lycée Sidi Ahmed Bennacer ZAGORA</li>
+                </ul>
+                
               </section>
 
               <section className="com mb-3">
