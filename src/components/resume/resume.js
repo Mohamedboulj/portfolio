@@ -1,7 +1,4 @@
 import "../resume/resume.style.css";
-import pic from "../../img/cc.png";
-import linkedin from "../../img/linkedin.png";
-import github from "../../img/github.png";
 import html from "../../img/html.png";
 import css from "../../img/css.png";
 import js from "../../img/js.png";
@@ -30,29 +27,11 @@ export function Resume() {
           <div className="col px-0 nom_poste ">
             {/* <h2>Mohamed Bouljihel</h2> */}
             <h3 className="my-5 fw-600">&lt;FULSTACK WEB DEVELOPER/&gt;</h3>
-            <a href={cv} className="hbtn hb-fill-middle2-bg hbor2 hpad2"><i className="bi bi-cloud-arrow-down-fill" aria-hidden="true"></i>Download</a>
-
+            <a href={cv} className="hbtn hb-fill-middle2-bg hbor2 hpad2">
+              <i className="bi bi-cloud-arrow-down-fill" aria-hidden="true"></i>
+              Download
+            </a>
           </div>
-
-          {/* <ul className="col justify-content-center info">
-            <li>Bd Cadi Tazi, lot YASMINA Imm B, App 2</li>
-            <li>Mohammedia</li>
-            <li>Tel :+212615110495</li>
-            <li>med.blj93@gmail.com</li>
-            <li>permis de conduire B</li>
-            <li>
-              <img src={linkedin} alt="linkedIn" />
-              <a href="https://www.linkedin.com/in/mohamed-bouljihel">
-                <label>|mohamed-bouljihel</label>
-              </a>
-            </li>
-            <li>
-              <img src={github} alt="github" />
-              <a href="https://github.com/Mohamedboulj">
-                <label>&nbsp;|Mohamedboulj</label>
-              </a>
-            </li>
-          </ul> */}
         </header>
         <main>
           <div className="explan">
@@ -133,9 +112,8 @@ export function Resume() {
                 <ul>
                   <li>
                     Ingénierie et optimisation des systèmes de transport et
-                  logistique (IOSTL) |&nbsp; FS Ain Chock CASABLANCA
+                    logistique (IOSTL) |&nbsp; FS Ain Chock CASABLANCA
                   </li>
-                  
                 </ul>
 
                 <h4>LICENCE FONDAMENTALE</h4>
@@ -143,9 +121,8 @@ export function Resume() {
                 <ul>
                   <li>
                     Sciences mathématiques appliquées |&nbsp;FS Ain chock
-                  CASABLANCA
+                    CASABLANCA
                   </li>
-                  
                 </ul>
 
                 <h4>BACCALAURÉAT Sciences mathématiques A</h4>
@@ -153,7 +130,6 @@ export function Resume() {
                 <ul>
                   <li>Lycée Sidi Ahmed Bennacer ZAGORA</li>
                 </ul>
-                
               </section>
 
               <section className="com mb-3">
